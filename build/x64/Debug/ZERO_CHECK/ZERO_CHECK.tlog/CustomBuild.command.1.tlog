@@ -1,0 +1,10 @@
+^C:\PROGRAMMING\C++\TICTACTOE-CODE\BUILD\CMAKEFILES\C55E6A10FF20D70D6FBB1AA2C340664D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Programming/C++/tictactoe-code -BC:/Programming/C++/tictactoe-code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Programming/C++/tictactoe-code/build/tictactoejghig.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
